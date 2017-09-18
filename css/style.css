@@ -40,8 +40,8 @@
 	SITE MAIN STRUCTURE
 ------------------------------------------------------*/
 .contact-map{
-	width: 640px !important;
-	height: 480px !important;
+	width: 640px;
+	height: 480px;
 }
 
 #iframe_main {

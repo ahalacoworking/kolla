@@ -1683,6 +1683,10 @@
 }
 
 @media only screen and (min-width: 640px) and (max-width: 767px){
+.contact-map{
+	width: 300px;
+	height: 480px;
+}	
 .address_info{
 	margin-top: 20px;
 }
@@ -2950,7 +2954,10 @@
 
 
 @media only screen and (min-width: 480px) and (max-width: 639px){
-
+.contact-map{
+	width: 300px;
+	height: 480px;
+}
 /* columns */
 .one_half, .one_third, .one_fourth, .two_third, .three_fourth, .one_fifth, .onecol_forty, .onecol_sixty, .onecol_thirtyfive,
 .one_half_less, .one_third_less, .one_fourth_less, .two_third_less, .three_fourth_less, .one_fifth_less, .onecol_forty_less, .onecol_sixty_less, .onecol_thirtyfive_less {
@@ -4299,7 +4306,10 @@ ul.footer_social_links {
 
 
 @media only screen and (max-width: 479px){
-
+.contact-map{
+	width: 300px;
+	height: 480px;
+}
 /* columns */
 .one_half, .one_third, .one_fourth, .two_third, .three_fourth, .one_fifth, .onecol_forty, .onecol_sixty, .onecol_thirtyfive,
 .one_half_less, .one_third_less, .one_fourth_less, .two_third_less, .three_fourth_less, .one_fifth_less, .onecol_forty_less, .onecol_sixty_less, .onecol_thirtyfive_less {
