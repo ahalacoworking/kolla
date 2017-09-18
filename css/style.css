@@ -39,6 +39,12 @@
 /*----------------------------------------------------
 	SITE MAIN STRUCTURE
 ------------------------------------------------------*/
+.logo_kolla{
+	background-color: rgba(255, 255, 255, 0.6);
+	border-radius: 30px;
+	padding: 20px;
+	height: 80px;
+}
 .contact-map{
 	width: 640px;
 	height: 480px;
