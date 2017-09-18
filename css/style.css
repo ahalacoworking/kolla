@@ -425,7 +425,7 @@
 	margin-top:23px;
 	position: relative;
 	text-indent:-999em;
-	background:url(../images/logo12.png) no-repeat left top;
+	background:url(../img/logo-kolla/logo-kolla-min.png) no-repeat left top;
 }
 
 #logo13 {
@@ -8678,7 +8678,6 @@ ul.footer_social_links5 {
 	padding: 20px 0px;
 	text-align: center;
 	margin: 0 10px 10px 0;
-	border: 1px solid #eee;
 	vertical-align: middle;
 }
 .client_logos3 li.last {
@@ -10220,7 +10219,7 @@ ul.adsbanner-list {
     right:20px;
     display:none;
     text-indent:-9999px;
-    background: url(../images/scroll-top-arrow.png) no-repeat left top;
+    background: url(../img/scroll-top-arrow.png) no-repeat left top;
 	z-index: 9001;
 }
 
