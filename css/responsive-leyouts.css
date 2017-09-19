@@ -1614,60 +1614,72 @@
 	}
 
 	/* logo */
-	.client_logos3 ul {
+	.client_logos3{
+		padding: 0px;
+		margin: 0px;
+	}
+
+	.client_logos3 ul{
+		margin: 0px auto !important;
+	}
+	
+	.client_logos3 li{
+		float: none;
+		margin: 0px auto;
+		width: 14% !important;	
+	}
+
+	.client_logos3 li.last{
+		float: none;
+		clear: none;
+		margin: 0px auto;
+	}
+
+	#logo-gojek{
+		width: 100px !important;
 		margin: 0px !important;
 		padding: 0px !important;
 	}
 
-	.client_logos3 li{
-		width: 14% !important;	
-	}
-
-	#logo-gojek{
-		width: 55px !important;
-		margin: 7px 0px 0px 0px !important;
-		padding: 0px !important;
-	}
-
 	#logo-mandiri{
-		width: 62px !important;
+		width: 90px !important;
+		margin: 0px !important;
 		padding: 0px !important;
-		margin: 0px 0px 0px 5px !important;
 	}
 
 	#logo-bekraf{
-		width:35px !important;
+		width: 50px !important;
+		margin: 0px !important;
 		padding: 0px !important;
-		margin: 0px 0px 0px 20px !important;
 	}
 
 	#logo-kemen-PAN-RB{
 		width: 130px !important;
-		margin: 0px 0px 0px 10px !important;
+		margin: 0px !important;
 		padding: 0px !important;
 	}
 
 	#logo-insan{
 		width:60px !important;
-		margin: 0px 0px 0px 0px !important;
+		margin: 0px !important;
 		padding: 0px !important;
 	}
 
 	#logo-unlimited{
 		width: 55px !important;
-		margin: 4px 0px 0px 35px !important;
+		margin: 0px !important;
 		padding: 0px !important;
 	}
 
 	#logo-sim{
 		width: 45px !important;
-		margin: 4px 0px 0px 55px !important;
+		margin: 0px !important;
 		padding: 0px !important;
 	}
 
 	#logo-get-gut{
 		width: 35px !important;
-		margin: 0px 0px 0px 60px !important;
+		margin: 0px !important;
 		padding: 0px !important;
 	}
 
