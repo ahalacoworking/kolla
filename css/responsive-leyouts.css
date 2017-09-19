@@ -575,6 +575,15 @@
 
 
 @media only screen and (min-width: 768px) and (max-width: 999px){
+
+.featured_section142 .addes{
+	height: 450px !important;
+}
+.featured_section142 .addes p{
+	height: 250px !important;
+	font-size: 11pt;
+	text-align: left;
+}	
 .contact-map{
 	width: 200px;
 	height: 480px;
@@ -1592,7 +1601,7 @@
 
 
 	.featured_section142 .addes p{
-		height: 230px !important;
+		height: 250px !important;
 		font-size: 11pt;
 		text-align: left;
 	}
