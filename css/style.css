@@ -39,6 +39,9 @@
 /*----------------------------------------------------
 	SITE MAIN STRUCTURE
 ------------------------------------------------------*/
+.calendar{
+    margin: 10px 0px;
+}
 .logo_kolla{
 	background-color: rgba(255, 255, 255, 0.6);
 	border-radius: 30px;
@@ -556,7 +559,7 @@
 }
 .logo2 {
 	float: left;
-	width: 16%;
+	width: 10%;
 	padding-left: 27px;
 }
 .logo3 {
@@ -592,7 +595,8 @@
 /*Ubah*/
 .menu_main.rslinks7 {
 	width: 80%;
-	margin-left: 20px;
+	margin-right: 20px;
+    float: right;
 }
 
 
@@ -3962,8 +3966,8 @@
 }
 .featured_section67 .box i {
 	float: left;
-	font-size: 30px;
-	margin-right: 18px;
+	font-size: 14pt;
+	margin-right: 5px;
 	margin-top: 3px;
 }
 .featured_section67 .box span {
@@ -3974,7 +3978,6 @@
 	font-size: 18px;
 	font-weight: 600;
 	margin-bottom: 10px;
-    padding: 5px 0px;
 }
 .featured_section67 .box a {
 	color: #000;
@@ -3983,7 +3986,7 @@
 	transition: all 0.3s ease;
 }
 .featured_section67 .box a:hover {
-	color: #e9e9e9;
+	color: #8b830c;
 	text-decoration: none;
 }
 
@@ -4705,7 +4708,7 @@
 	color: #f9e90b;
 	position: absolute;
 	left: 0;
-	bottom: -38px;
+	bottom: -50px;
 }
 .featured_section91 .one_fourth .persoci i {
 	float: left;
@@ -6376,8 +6379,8 @@
 }
 
 .featured_section142 h3 {
-	font-size: 18px !important;
 	padding: 0px;
+    font-size: 14pt;
 	margin: 5px 0px;
 }
 
@@ -6390,7 +6393,7 @@
 }
 
 .featured_section142 p{
-	height: 180px;
+	height: 200px;
 }
 
 .featured_section142 .addes {
@@ -6415,7 +6418,7 @@
 }
 
 .featured_section142 .addes strong {
-	font-size: 14px;
+	font-size: 12px;
 	margin: 5px 0px;
 	display: block;
 	font-weight: 600;
@@ -8200,7 +8203,7 @@ ul.footer_social_links5 {
 	float: left;
 	width: 100%;
 	padding: 80px 0px 75px 0px;
-	background: #f3f3f3;
+	background: #fff;
 	text-align: center;
 	color: #999;
 }
