@@ -276,7 +276,11 @@
 	margin-right: 0 !important;
 	clear: right;
 }
-
+.conlast {
+	margin-right: 0 !important;
+    padding-left: 20px;
+	clear: right;
+}
 
 /*---------------------------------------------------
 	HEADER
