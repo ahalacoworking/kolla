@@ -251,7 +251,7 @@ padding-left: 5px;}
 .navbar-nav>li>a {
     padding-top: 34px;
     padding-bottom: 32px;
-    font-size: 0.9em !important;
+    font-size: 1.2em !important;
 }
 
 
@@ -521,7 +521,7 @@ body{overflow-x:hidden}::-webkit-scrollbar{width:12px}::-webkit-scrollbar-track{
 
 .nav>li>a {
 	margin: 0px 8px;
-    font-size: 0.9em !important;
+    font-size: 1.2em !important;
 }
 
 .compact .header .menu_rlinks7 a {
