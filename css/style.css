@@ -1,6 +1,8 @@
 /*-------------------------------------------------------
 [Table of contents]
 
+0. Lain-lain
+
 1. Header
 	+ logo
 	+ top navigation
@@ -37,118 +39,15 @@
 
 
 /*----------------------------------------------------
-	SITE MAIN STRUCTURE
+	LOGO
 ------------------------------------------------------*/
-.calendar{
-    margin: 10px 0px;
-}
 .logo_kolla{
 	background-color: rgba(255, 255, 255, 0.6);
 	border-radius: 30px;
 	padding: 20px;
 	height: 80px;
 }
-.contact-map{
-	width: 640px;
-	height: 480px;
-}
 
-#iframe_main {
-    height: 100%;
-    width: 120%;
-	margin-top:-280px;
-	margin-left:-50px;
-}
-
-#idiv {
-    margin: 10px;
-	width: 600px;
-	overflow:hidden;
-	height: 915px;
-    position: relative;
-    top: 20px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-}
-
-.img-team{
-	width: 257px;
-	height: 286px;
-	overflow: hidden;
-	text-align: center;	
-}
-.img-team img{
-	padding: 0px;
-	margin: 0px;
-}
-.site_wrapper {
-	width: 100%;
-	margin: 0 auto 0 auto;
-}
-.container_full {
-	width: 100%;
-	float: left;
-	margin: auto;
-}
-.container_fhstyle {
-	width: 97.2%;
-	margin: 0 auto;
-}
-.container_fhstyle2 {
-	width: 100%;
-	margin: 0 auto;
-}
-
-.container {
-	width: 1170px;
-	margin: auto;
-}
-
-.content_fullwidth {
-	float: left;
-	width: 100%;
-	padding: 120px 0px 0px 0px;
-}
-
-.content_fullwidth.less {
-	padding: 0px 0px 0px 0px;
-}
-.content_fullwidth.less2 {
-	padding: 0px 0px 0px 0px;
-}
-
-.content_left {
-	float: left;
-	width: 71%;
-	padding: 0px 0px 0px 0px;
-}
-.left_sidebar {
-	float: left;
-	width: 25%;
-	padding: 0px 0px 0px 0px;
-}
-.content_right {
-	float: right;
-	width: 71%;
-	padding: 0px 0px 0px 0px;
-}
-.right_sidebar {
-	float: right;
-	width: 25%;
-	padding: 0px 0px 0px 0px;
-}
-.content_halfsite {
-	float: left;
-	width: 47.5%;
-	margin-right: 5%;
-	padding: 0px 0px 0px 0px;
-}
-.content_halfsite.last {
-	margin-right: 0;
-}
-
-/* logo */
 #logo-gojek{
 	width:150px;
 	padding-top:16px;
@@ -198,14 +97,42 @@
 	margin-left:30px;
 }
 
+/*----------------------------------------------------
+	SITE MAIN STRUCTURE
+------------------------------------------------------*/
+.site_wrapper {
+	width: 100%;
+	margin: 0 auto 0 auto;
+}
+
+.container_full {
+	width: 100%;
+	float: left;
+	margin: auto;
+}
+
+.container {
+	width: 1170px;
+    margin: 20px auto;
+}
+
+.content_fullwidth {
+	float: left;
+	width: 100%;
+	padding: 20px 0px 0px 0px;
+}
+
+.content_fullwidth.less {
+	padding: 0px 0px 0px 0px;
+}
+
 /* columns */
-.one_half, .one_third, .one_fourth, .two_third, .three_fourth, .one_fifth, .onecol_forty, .onecol_sixty, .onecol_thirtyfive {
+.one_half, 
+.one_third, 
+.one_fourth {
 	position: relative;
 	margin-right: 4%;
 	float: left;
-}
-.one_full {
-	width: 100%;
 }
 .one_half {
 	width: 48%;
@@ -219,30 +146,14 @@
 .one_fifth {
 	width: 16.800%;
 }
-.two_third {
-	width: 65.650%;
-}
-.three_fourth {
-	width: 74%;
-}
-.onecol_forty {
-	width: 40%;
-}
-.onecol_sixty {
-	width: 56%;
-}
-.onecol_thirtyfive {
-	width: 35%;
-}
 
 /* Less Space Bitween Columns */
-.one_half_less, .one_third_less, .one_fourth_less, .two_third_less, .three_fourth_less, .one_fifth_less, .onecol_forty_less, .onecol_sixty_less, .onecol_thirtyfive_less {
+.one_half_less,
+.one_third_less,
+.one_fourth_less {
 	position: relative;
 	margin-right: 2%;
 	float: left;
-}
-.one_full_less {
-	width: 100%;
 }
 .one_half_less {
 	width: 49%;
@@ -256,22 +167,6 @@
 .one_fifth_less {
 	width: 18.400%;
 }
-.two_third_less {
-	width: 66%;
-}
-.three_fourth_less {
-	width: 74.500%;
-}
-.onecol_forty_less {
-	width: 40%;
-}
-.onecol_sixty_less {
-	width: 58%;
-}
-.onecol_thirtyfive_less {
-	width: 36.250%;
-}
-
 .last {
 	margin-right: 0 !important;
 	clear: right;
@@ -282,46 +177,59 @@
 	clear: right;
 }
 
+/*----------------------------------------------------
+	LAIN-LAIN
+------------------------------------------------------*/
+.img-team{
+	width: 100%;
+	height: 286px;
+	overflow: hidden;
+	text-align: center;	
+}
+
+.img-team img{
+	padding: 0px;
+	margin: 0px;
+}
+
+.img-event{
+	height: 220px;
+	overflow: hidden;
+	text-align: center;
+}
+
+.calendar{
+    margin: 10px 0px;
+}
+
+.contact-map{
+	width: 640px;
+	height: 480px;
+}
+
+#iframe_main {
+    height: 100%;
+    width: 120%;
+	margin-top:-280px;
+	margin-left:-50px;
+}
+
+#idiv {
+    margin: 10px;
+	width: 600px;
+	overflow:hidden;
+	height: 915px;
+    position: relative;
+    top: 20px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+
 /*---------------------------------------------------
 	HEADER
 ------------------------------------------------------*/
-
-/* Logo */
-#logo {
-	float:left;
-	display:block;
-	width:100%;
-	min-height: 50px;
-	margin-top:0px;
-	position: relative;
-	text-indent:-999em;
-	background:url(../images/logo.png) no-repeat left top;	
-}
-
-/* bigger logo? remove below comment */
-/*#logo {
-	float:left;
-	display:block;
-	width:100%;
-	min-height: 100px;
-	margin-top:0px;
-	position: relative;
-	text-indent:-999em;
-	background:url(../images/logo.png) no-repeat left top;
-	background-size: 100%;
-}*/
-
-#logo1 {
-	float:left;
-	display:block;
-	width:100%;
-	min-height: 50px;
-	margin-top:0px;
-	position: relative;
-	text-indent:-999em;
-	background:url(../images/logo1.png) no-repeat left top;
-}
-
 #logo2 {
 	float:left;
 	display:block;
@@ -333,291 +241,22 @@
 	background:url(../images/logo2.png) no-repeat left top;
 }
 
-#logo3 {
-	float:left;
-	display:block;
-	width:100%;
-	min-height: 50px;
-	margin-top:0px;
-	position: relative;
-	text-indent:-999em;
-	background:url(../images/logo3.png) no-repeat left top;
-}
-
-#logo4 {
-	float:left;
-	display:block;
-	width:100%;
-	min-height: 50px;
-	margin-top:0px;
-	position: relative;
-	text-indent:-999em;
-	background:url(../images/logo4.png) no-repeat left top;
-}
-
-#logo5 {
-	float:left;
-	display:block;
-	width:100%;
-	min-height: 50px;
-	margin-top:0px;
-	position: relative;
-	text-indent:-999em;
-	background:url(../images/logo5.png) no-repeat left top;
-}
-
-#logo6 {
-	float:left;
-	display:block;
-	width:100%;
-	min-height: 50px;
-	margin-top:0px;
-	position: relative;
-	text-indent:-999em;
-	background:url(../images/logo6.png) no-repeat left top;
-}
-
-#logo7 {
-	float:left;
-	display:block;
-	width:100%;
-	min-height: 50px;
-	margin-top:0px;
-	position: relative;
-	text-indent:-999em;
-	background:url(../images/logo7.png) no-repeat left top;
-}
-
-#logo8 {
-	float:left;
-	display:block;
-	width:100%;
-	min-height: 50px;
-	margin-top:10px;
-	position: relative;
-	text-indent:-999em;
-	background:url(../images/logo8.png) no-repeat left top;
-}
-
-#logo9 {
-	float:left;
-	display:block;
-	width:100%;
-	min-height: 50px;
-	margin-top:0px;
-	position: relative;
-	text-indent:-999em;
-	background:url(../images/logo9.png) no-repeat left top;
-}
-
-#logo10 {
-	float:left;
-	display:block;
-	width:100%;
-	min-height: 50px;
-	position: relative;
-	text-indent:-999em;
-	background:url(../images/logo10.png) no-repeat left top;
-}
-
-#logo11 {
-	float:left;
-	display:block;
-	width:100%;
-	min-height: 50px;
-	margin-top:14px;
-	position: relative;
-	text-indent:-999em;
-	background:url(../images/logo11.png) no-repeat left top;
-}
-
-#logo12 {
-	float:left;
-	display:block;
-	width:100%;
-	min-height: 50px;
-	margin-top:23px;
-	position: relative;
-	text-indent:-999em;
-	background:url(../images/logo-kolla/logo-kolla-min.png) no-repeat left top;
-}
-
-#logo13 {
-	float:left;
-	display:block;
-	width:100%;
-	min-height: 50px;
-	margin-top:0px;
-	position: relative;
-	text-indent:-999em;
-	background:url(../images/logo13.png) no-repeat left top;
-}
-
-#logo14 {
-	float:left;
-	display:block;
-	width:100%;
-	min-height: 50px;
-	margin-top:30px;
-	position: relative;
-	text-indent:-999em;
-	background:url(../images/logo14.png) no-repeat left top;
-}
-
-#logo15 {
-	float:left;
-	display:block;
-	width:100%;
-	min-height: 50px;
-	margin-top:0px;
-	position: relative;
-	text-indent:-999em;
-	background:url(../images/logo15.png) no-repeat left top;
-}
-
-#logo16 {
-	float:left;
-	display:block;
-	width:100%;
-	min-height: 50px;
-	margin-top:0px;
-	position: relative;
-	text-indent:-999em;
-	background:url(../images/logo16.png) no-repeat left top;
-}
-
-#logo17 {
-	float:left;
-	display:block;
-	width:100%;
-	min-height: 50px;
-	margin-top:0px;
-	position: relative;
-	text-indent:-999em;
-	background:url(../images/logo17.png) no-repeat left top;
-}
-
-#logo18 {
-	float:left;
-	display:block;
-	width:100%;
-	min-height: 50px;
-	margin-top:10px;
-	position: relative;
-	text-indent:-999em;
-	background:url(../images/logo18.png) no-repeat left top;
-}
-
-#logo19 {
-	float:left;
-	display:block;
-	width:100%;
-	min-height: 50px;
-	position: relative;
-	text-indent:-999em;
-	background:url(../images/logo19.png) no-repeat left top;
-}
-
-#logo21 {
-	float:left;
-	display:block;
-	width:100%;
-	min-height: 50px;
-	margin-top:34px;
-	position: relative;
-	text-indent:-999em;
-	background:url(../images/logo21.png) no-repeat left top;
-}
-
-#logo22 {
-	float:left;
-	display:block;
-	width:100%;
-	min-height: 50px;
-	margin-top:10px;
-	position: relative;
-	text-indent:-999em;
-	background:url(../images/logo22.png) no-repeat left top;	
-}
-
-#logo23 {
-	float:left;
-	display:block;
-	width:100%;
-	min-height: 50px;
-	margin-top:14px;
-	position: relative;
-	text-indent:-999em;
-	background:url(../images/logo23.png) no-repeat left top;
-}
-
-
-
-
-
 /* header area adinationals */
-.logo {
-	float: left;
-	width: 25%;
-	margin-top: 5px;
-}
 .logo2 {
 	float: left;
 	width: 20%;
 	padding-left: 27px;
 }
-.logo3 {
-	float: left;
-	width: 16%;
-	height: 120px;
-	padding-left: 27px;
-	background: #f7ca18;
-}
-
 .menu_main {
 	float: left;
 	width: 75%;
 	z-index: 9999;
 }
-
-.menu_main.rslinks {
-	width: 67%;
-}
-
-.menu_main.rslinks3 {
-	width: 67%;
-}
-
-.menu_main.rslinks4 {
-	width: 64%;
-}
-
-.menu_main.rslinks5 {
-	width: 64%;
-}
-
-/*Ubah*/
 .menu_main.rslinks7 {
 	width: 70%;
 	margin-right: 20px;
     float: right;
 }
-
-
-.menu_main_full {
-	float: left;
-	width: 84%;
-	z-index: 9999;
-}
-
-.menu_main_full2 {
-	float: left;
-	width: 97.5%;
-	z-index: 9999;
-}
-
-
-
 
 .mstslider {
 	width: 100%;
@@ -3446,7 +3085,7 @@
 .featured_section56 .left {
 	float: left;
 	width: 50%;
-    height: 650px;
+    height: 710px;
 	padding: 100px 0px;
 	background: #f3f3f3;
 }
@@ -6365,11 +6004,6 @@
 
 
 /* featured section 142 */
-.img-event{
-	height: 220px;
-	overflow: hidden;
-	text-align: center;
-}
 
 .featured_section142 {
 	float: left;
