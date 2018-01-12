@@ -2289,7 +2289,7 @@ header h6 + p {
     font-size: 0.75em;
 }
 header.major {
-    padding: 6.5em 3em 4.5em 3em ;
+    padding: 3em 0 1em;
     text-align: center;
     background-color: #6fc3df;
     background-image: url("../img/overlay.png"), url("../img/header-bg.svg"), -moz-linear-gradient(45deg, rgba(236,141,129,1) 0%, rgba(231,183,136,0.92) 20%, rgba(255,253,86,0.8) 50%, rgba(135,197,164,0.92) 80%, rgba(96,147,196,1) 100%);
@@ -2317,9 +2317,6 @@ header.major p {
 @media screen and (max-width: 1280px) {
     header p {
         line-height: 2;
-    }
-    header.major {
-        padding: 5em 3em 3em 3em ;
     }
 }
 @media screen and (max-width: 980px) {
