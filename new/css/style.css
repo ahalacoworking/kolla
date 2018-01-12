@@ -529,7 +529,7 @@ a.btn {
     position: absolute;
     bottom: 0;
     width: 100%;
-    padding: 2em 2em 0;
+    padding: 2em 2em 1em;
     -webkti-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -549,8 +549,7 @@ a.btn {
     text-transform: uppercase;
   }
   .post-module .post-content .title {
-    margin: 0;
-    padding: 0 0 10px;
+    margin: 0 0 1em;
     text-align: left;
     font-weight: 700;
   }
@@ -559,6 +558,7 @@ a.btn {
     font-size: 14px;
     text-align: left;
     line-height: 1.8em;
+    margin: 1em 0;
   }
   .post-module .post-content .post-meta {
     margin: 0;
@@ -619,22 +619,19 @@ a.btn {
 
 .cardGroup {
     display: flex;
-    border: 1px solid #CAD0D2;
-    border-radius: 4px;
     overflow: hidden;
 }
 
-.cardGroup .card {
+.cardGroup__card {
     display: flex;
     flex-direction: column;
-    border: 1px solid #CAD0D2;
-    border-radius: 4px;
+    border: solid 1px rgba(36, 42, 48, 0.4);
     overflow: hidden;
 }
-.cardGroup .card, .stream {
+.cardGroup__card, .stream {
     display: -ms-flexbox;
 }
-.cardGroup .card, .centeredIcon {
+.cardGroup__card, .centeredIcon {
     -ms-flex-direction: column;
 }
 .cardGroup .card__description {
@@ -651,11 +648,10 @@ a.btn {
 .cardGroup__card {
     flex: 1 1 0%;
     border: none;
-    border-radius: 0;
 }
 
 .cardGroup__card + .cardGroup__card {
-    border-left: 1px solid #D7DBDD;
+    border-left: solid 1px rgba(36, 42, 48, 0.4);
 }
 
 .cardGroup__cardDescription {
@@ -666,13 +662,12 @@ a.btn {
 }
 .card__descriptionText, .card__price {
     text-align: center;
-    color: #57727C;
     font-size: 12px;
 }
 .card__price {
     font-weight: 700;
     padding: 5px 15px;
-    border-top: 1px solid #D7DBDD;
+    border-top: solid 1px #FFF;
     background-color: #EEF3F5;
 }
 
@@ -2929,6 +2924,8 @@ body.is-loading #banner footer {
 }
 #main .features .content .feature.feature-space {
     width: 25%;
+    display: flex;
+    flex-direction: column;
 }
 #main .features .content .feature:nth-child(-n + 3) {
     border-top-width: 0;
