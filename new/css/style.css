@@ -255,6 +255,9 @@ body {
 .bg-light {
     background-color: #FFF;
 }
+.bg-transparent, header.major.bg-transparent {
+    background-color: transparent;
+}
 .bg-gradient-space, header.major.bg-gradient-space {
     background: rgb(255,253,86);
     background-image: url("../img/overlay.png"), url("../img/header-bg.svg"), -moz-linear-gradient(45deg, rgba(255,253,86,1) 0%, #e7b788 100%);
@@ -2289,7 +2292,7 @@ header h6 + p {
     font-size: 0.75em;
 }
 header.major {
-    padding: 3em 0 1em;
+    padding: 2em 0 1em;
     text-align: center;
     background-color: #6fc3df;
     background-image: url("../img/overlay.png"), url("../img/header-bg.svg"), -moz-linear-gradient(45deg, rgba(236,141,129,1) 0%, rgba(231,183,136,0.92) 20%, rgba(255,253,86,0.8) 50%, rgba(135,197,164,0.92) 80%, rgba(96,147,196,1) 100%);
@@ -3384,9 +3387,13 @@ body.is-loading #banner footer {
 #main .cta {
     text-align: center;
 }
+#main .cta h2 {
+    color: #32383f;
+}
 #main .cta h2:after {
     margin-left: auto;
     margin-right: auto;
+    background: #32383f;
 }
 #main .cta p {
     margin-top: 0;
