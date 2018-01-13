@@ -1,379 +1,211 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <title>Kolla</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/style.css" />
-  <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-  <!--[if lte IE 9]><link rel="style sheet" href="assets/css/ie9.css" /><![endif]-->
-  <!--[if lte IE 8]><script src="/items/demos_assets/html5shiv.js"></script><![endif]-->
-  <script src="js/jquery.min.js"></script>
-  <script src="js/skel.min.js"></script>
-  <script src="js/util.js"></script>
-  <script src="js/respond.min.js"></script>
+    <title>Kolla</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css" />
+    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+    <!--[if lte IE 9]><link rel="style sheet" href="assets/css/ie9.css" /><![endif]-->
+    <!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
 </head>
+
 <body id="top" style="background-position: center 0px;" class="" cz-shortcut-listen="true">
-  <div id="StayFocusd-infobar" style="display:none;">
-    <span id="StayFocusd-infobar-msg"></span>
-    <span id="StayFocusd-infobar-links">
-      <a id="StayFocusd-infobar-never-show">hide forever</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-      <a id="StayFocusd-infobar-hide">hide once</a>
-    </span>
-  </div>
-  <div id="page-wrapper">
-    <header id="header">
-      <h1>
-        <a href="./">Kolla
-          <span>Living</span>
-        </a>
-      </h1>
-      <nav>
-        <a href="./">Home</a>
-        <a href="promo.html">Promo</a>
-        <a href="program.html">Program</a>
-        <a href="space.html">Kolla Space</a>
-        <a href="education.html">Kolla Education</a>
-        <a href="community.html">Kolla Community</a>
-        <a href="#menu">More</a>
-      </nav>
-    </header>
-    <div id="main">
-      <section id="banner">
-        <header>
-          <div class="intro">
-            <h2>Kolla Living</h2>
-            <p>The world is my office</p>
-            <p><a href="#" class="button big">Collaborate with Us!</a></p>
-          </div>
-        </header>
-        <footer>
-          <ul class="actions">
-            <li>
-              <!-- <a href="#" class="button big">Collaborate with Us!</a> -->
-            </li>
-          </ul>
-        </footer>
-      </section>
-      <section id="one" class="features">
-        <header class="major">
-          <h2>Promo This Month</h2>
-        </header>
-        <div class="content">
-          <section class="feature">
-            <span class="icon major fa-diamond"></span>
-            <h3>Kolla Space</h3>
-            <p>
-                KollaSpace mengkolaborasikan dan menghubungkan generasi digital dari mana saja serta menciptakan ekosistem komunitas bersama.
-            </p>
-          </section>
-          <section class="feature">
-            <span class="icon major fa-save"></span>
-            <h3>Kolla Education</h3>
-            <p>
-                KollaEducation memiliki visi untuk membangun kemampuan masyarakat dalam memahami, mengembangkan, dan mengaplikasikan teknologi.
-            </p>
-          </section>
-          <section class="feature">
-            <span class="icon major fa-newspaper-o"></span>
-            <h3>Kolla Community</h3>
-            <p>
-                KollaCommunity memiliki visi untuk menciptakan atmosfer positif secara edukatif dan bersahabat.
-            </p>
-          </section>
-        </div>
-      </section>
-      <section id="content" class="features">
-          <header class="major bg-gradient-space">
-              <h2>Kolla Space</h2>
-              <p>We create environments,  
-                  <br> that increase productivity, innovation, and collaboration.</p>
-          </header>
-          <div class="content">
-              <section class="feature feature-space">
-                  <span class="icon major fa-diamond"></span>
-                  <h3>Nomad Desk</h3>
-                  <p>
-                      Guaranteed workspace in a common area at one location. Just bring your laptop, pick an open seat, and get to work.
-                  </p>
-              </section>
-              <section class="feature feature-space">
-                  <span class="icon major fa-save"></span>
-                  <h3>Meeting Space</h3>
-                  <p>
-                      A room of your own in a shared space at one location. You’ll set up shop in the same spot each day in your building.
-                  </p>
-              </section>
-              <section class="feature feature-space">
-                  <span class="icon major fa-newspaper-o"></span>
-                  <h3>Event Space</h3>
-                  <p>
-                      Whether full floor or building, we'll partner with you to design, build, and manage a tailor-made layout.
-                  </p>
-              </section>
-              <section class="feature feature-space">
-                  <span class="icon major fa-newspaper-o"></span>
-                  <h3>Private Office</h3>
-                  <p>
-                      Enclosed, lockable offices can accommodate teams of any size. Move-in ready, with desks, chairs, and filing cabinets.
-                  </p>
-              </section>
-          </div>
-      </section>
-      <section id="two" class="spotlight">
-        <div class="image">
-          <img src="img/pic01.jpg" alt="">
-        </div>
-        <div class="content">
-          <h2>Kolla Space</h2>
-          <p>Praesent egestas quam at lorem imperdiet lobortis. Mauris condimentum et euismod ipsum, at ullamcorper libero dolor
-            auctor sit amet. Proin vulputate amet sem ut tempus. Donec quis ante viverra, suscipa facilisis at, vestibulum
-            id urna. Lorem ipsum dolor sit amet sollicitudin.</p>
-        </div>
-      </section>
-      <section id="three" class="spotlight alt">
-        <div class="image">
-          <img src="img/pic02.jpg" alt="">
-        </div>
-        <div class="content">
-          <h2>Kolla Education</h2>
-          <p>Praesent egestas quam at lorem imperdiet lobortis. Mauris condimentum et euismod ipsum, at ullamcorper libero dolor
-            auctor sit amet. Proin vulputate amet sem ut tempus. Donec quis ante viverra, suscipa facilisis at, vestibulum
-            id urna. Lorem ipsum dolor sit amet sollicitudin.</p>
-        </div>
-      </section>
-      <section id="four" class="spotlight">
-        <div class="image">
-          <img src="img/pic03.jpg" alt="">
-        </div>
-        <div class="content">
-          <h2>Kolla Community</h2>
-          <p>Praesent egestas quam at lorem imperdiet lobortis. Mauris condimentum et euismod ipsum, at ullamcorper libero dolor
-            auctor sit amet. Proin vulputate amet sem ut tempus. Donec quis ante viverra, suscipa facilisis at, vestibulum
-            id urna. Lorem ipsum dolor sit amet sollicitudin.</p>
-        </div>
-      </section>
-      <section id="five" class="cta">
-        <header>
-          <h2>Clients and Partners</h2>
-        </header>
-        <div class="content spotlight clients bg-transparent">
-          <ul>
-              <li><img src="https://coworker.imgix.net/template/img/coworker_companies_logo1.png" alt="recent used companies"></li>
-              <li><img src="https://coworker.imgix.net/template/img/coworker_companies_logo2.png" alt="recent used companies"></li>
-              <li><img src="https://coworker.imgix.net/template/img/coworker_companies_logo3.png" alt="recent used companies"></li>
-              <li><img src="https://coworker.imgix.net/template/img/coworker_companies_logo4.png" alt="recent used companies"></li>
-              <li><img src="https://coworker.imgix.net/template/img/coworker_companies_logo5.png" alt="recent used companies"></li>
-              <li><img src="https://coworker.imgix.net/template/img/coworker_companies_logo7.png" alt="recent used companies"></li>
-          </ul>
-        </div>
-      </section>
+    <div id="StayFocusd-infobar" style="display:none;">
+        <span id="StayFocusd-infobar-msg"></span>
+        <span id="StayFocusd-infobar-links">
+            <a id="StayFocusd-infobar-never-show">hide forever</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a id="StayFocusd-infobar-hide">hide once</a>
+        </span>
     </div>
-    <section id="footer">
-      <div class="inner">
-        <section>
-          <h3>Sitemap</h3>
-          <ul>
-              <li><a href="./">Home</a></li>
-              <li><a href="promo.html">Promo</a></li>
-              <li><a href="programs.html">Programs</a>
-                <ul>
-                  <li><a href="space.html">Kolla Space</a></li>
-                  <li><a href="education.html">Kolla Education</a></li>
-                  <li><a href="community.html">Kolla Community</a></li>
-                </ul>
-              </li>
-          </ul>
+    <div id="page-wrapper">
+        <header id="header">
+            <h1>
+                <a href="./">Kolla
+                    <span>Co-Living</span>
+                </a>
+            </h1>
+            <nav>
+                <a href="./">Home</a>
+                <a href="about.html">Products</a>
+                <a href="events.html">Events</a>
+                <a href="news.html">News</a>
+                <a href="#menu">More</a>
+            </nav>
+            <nav id="menu">
+                <div class="inner">
+                    <h2>More Menu</h2>
+                    <ul class="links">
+                        <li>
+                            <a href="careers.html">Careers</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div id="main">
+            <section id="space" class="features">
+                <header class="major bg-gradient-space">
+                    <h2>Careers</h2>
+                    <p>We create environments,
+                        <br> increase productivity, innovation, and collaboration.</p>
+                </header>
+                <div class="content">
+                  <div class="cardNewsFlex">
+                    <main class="content">
+                      <div class="feed-grid">
+                        <div class="card-half wide">
+                          <div class="card-img"><span class="label"> <i class="fa fa-star"></i></span><img src="http://a5.files.airows.com/image/upload/c_fit,cs_srgb,w_620/MTM0MjY4NjM0MzY4NTY5MzE0.png" alt="img"/></div>
+                          <div class="card-text">
+                            <h4>All outdoor & adventure lovers should follow this guy on instagram</h4>
+                            <p>Just take a look at a few of his shots and try not to want this in your feed regularly.</p>
+                          </div>
+                          <ul class="card-tools">
+                            <li class="tools-item"><i class="fa fa-heart like"></i><span class="tools-count">543</span></li>
+                            <li class="tools-item"><i class="fa fa-share share"></i></li>
+                          </ul>
+                        </div>
+                        <div class="cardNews"> <img src="https://40.media.tumblr.com/027d3fdde45d8cb950a74dd070cf8e90/tumblr_nxfo8rG3o81qzleu4_og_540.jpg" alt="img"/>
+                          <div class="info-center">12 Photos Of A Gorgeously Designed NYC Home</div>
+                        </div>
+                        <div class="cardNews"><img src="https://36.media.tumblr.com/1a6bf1c955f5278517f71d50b60ac89d/tumblr_nw46p7NOHH1qkegsbo2_540.jpg" alt="img"/>
+                          <div class="info-center">Beautiful Yet Simple Warehouse-Inspired Home</div>
+                        </div>
+                        <div class="cardNews"><img src="https://41.media.tumblr.com/38033666a5ce5c84a658fd90409f8467/tumblr_nxcmsxVSHs1qkegsbo1_540.jpg" alt="img"/>
+                          <div class="info-center">Top trends this winter 2016</div>
+                        </div>
+                        <div class="card-half wide">
+                          <div class="card-img"><img src="https://40.media.tumblr.com/tumblr_lzgmkfRJ7U1qb899go1_500.jpg" alt="img"/></div>
+                          <div class="card-text">
+                            <h4>History travel to Spain. Photos stunning country</h4>
+                            <p>Just take a look at a few of his shots and try not to want this in your feed regularly.</p>
+                          </div>
+                          <ul class="card-tools">
+                            <li class="tools-item"><i class="fa fa-heart like"></i><span class="tools-count">133</span></li>
+                            <li class="tools-item"><i class="fa fa-share share"></i></li>
+                          </ul>
+                        </div>
+                        <div class="card-half">
+                          <div class="card-img"><img src="https://www.chelseafc.com/content/cfc/en/homepage/news/boilerplate-config/latest-news/2015/11/pre-match-briefing--stoke-city-v-chelsea--part-two/_jcr_content.autoteaser.jpeg" alt="img"/></div>
+                          <div class="card-text">
+                            <h4>Pre-Match Briefing: Stoke City v Chelsea</h4>
+                            <p>We have a tea-time appointment in the Potteries later today.</p>
+                          </div>
+                          <ul class="card-tools">
+                            <li class="tools-item"><i class="fa fa-heart like"></i><span class="tools-count">4533</span></li>
+                            <li class="tools-item"><i class="fa fa-share share"></i></li>
+                          </ul>
+                        </div>
+                        <div class="cardNews"> <img src="https://41.media.tumblr.com/7be0a9c6035a5eaaafaddab95a3d77ae/tumblr_mmp17zInpt1qhfgjbo1_540.jpg" alt="img"/>
+                          <div class="info-center">Best 100 memorable sports photos</div>
+                        </div>
+                        <div class="cardNews"><img src="https://cdn-images-1.medium.com/max/600/1*wFiuAFruqIUTNU99xpb_zw.gif" alt="img"/>
+                          <div class="info-center">Long shadow is dead. Welcome Diffuse shadows.</div>
+                        </div>
+                        <div class="cardNews"> <img src="https://40.media.tumblr.com/027d3fdde45d8cb950a74dd070cf8e90/tumblr_nxfo8rG3o81qzleu4_og_540.jpg" alt="img"/>
+                          <div class="info-center">12 Photos Of A Gorgeously Designed NYC Home</div>
+                        </div>
+                        <div class="cardNews"><img src="https://40.media.tumblr.com/214255d33d16e6075d674c9cd84d9a6c/tumblr_no7630It9v1qd6rjmo1_540.jpg" alt="img"/>
+                          <div class="info-center">Christina Schneiderlin: Interview with the artist</div>
+                        </div>
+                        <div class="card-half">
+                          <div class="card-img"><span class="label"> <i class="fa fa-star"></i></span><img src="https://40.media.tumblr.com/682b6eb0bcafb090c26cda164a235f3b/tumblr_n04czvggDF1sv6eyto1_500.jpg" alt="img"/></div>
+                          <div class="card-text">
+                            <h4>You just should run</h4>
+                            <p>Learn how to run can improve your health.</p>
+                          </div>
+                          <ul class="card-tools">
+                            <li class="tools-item"><i class="fa fa-heart like"></i><span class="tools-count">8543</span></li>
+                            <li class="tools-item"><i class="fa fa-share share"></i></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </main>
+                  </div>
+                </div>
+            </section>
+        </div>
+        <section id="footer">
+            <div class="inner">
+                <section>
+                    <h3>Sitemap</h3>
+                    <ul>
+                        <li>
+                            <a href="./">Home</a>
+                        </li>
+                        <li>
+                            <a href="products.html">Products</a>
+                        </li>
+                        <li>
+                            <a href="events.html">Events</a>
+                        </li>
+                        <li>
+                            <a href="news.html">News</a>
+                        </li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>&nbsp;</h3>
+                    <ul>
+                        <li>
+                            <a href="privacy.html">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="terms.html">Terms &amp; Conditions</a>
+                        </li>
+                        <li>
+                            <a href="careers.html">Careers</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Get in Touch</h3>
+                    <ul class="contact">
+                        <li class="fa-phone">(+62) 21 50201021</li>
+                        <li class="fa-envelope">
+                            <a href="#">contact@kollaspace.com</a>
+                        </li>
+                        <li class="fa-twitter">
+                            <a href="#">twitter.com/kollaliving</a>
+                        </li>
+                        <li class="fa-facebook">
+                            <a href="#">facebook.com/kollanomad</a>
+                        </li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Mailing Address</h3>
+                    <p>Kolla Space Sabang
+                        <br> Jalan Agus Salim 32B, Lantai 2
+                        <br> Kebun Sirih, Menteng
+                        <br> Jakarta Pusat 10340
+                        <br> Indonesia</p>
+                </section>
+            </div>
+            <div class="copyright bg-dark">
+                <p>Copyright © Kolla Living. All rights reserved.</p>
+            </div>
         </section>
-        <section>
-          <h3>&nbsp;</h3>
-          <ul>
-              <li><a href="about.html">About</a></li>
-              <li><a href="programs.html">Programs</a>
-                <ul>
-                <li><a href="space.html">Kolla Space</a></li>
-                <li><a href="education.html">Kolla Education</a></li>
-                <li><a href="community.html">Kolla Community</a></li>
-                </ul>
-              </li>
-              <li><a href="pricing.html">Pricing</a></li>
-              <li><a href="events.html">Events</a></li>
-              <li><a href="news.html">News</a></li>
-              <li><a href="careers.html">Careers</a></li>
-              <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </section>
-        <section>
-          <h3>Get in Touch</h3>
-          <ul class="contact">
-            <li class="fa-phone">(+62) 21 50201021</li>
-            <li class="fa-envelope">
-              <a href="#">contact@kollaspace.com</a>
-            </li>
-            <li class="fa-twitter">
-              <a href="#">twitter.com/kollaliving</a>
-            </li>
-            <li class="fa-facebook">
-              <a href="#">facebook.com/kollanomad</a>
-            </li>
-          </ul>
-        </section>
-        <section>
-          <h3>Mailing Address</h3>
-          <p>Kolla Space Sabang
-            <br> Jalan Agus Salim 32B, Lantai 2
-            <br> Kebun Sirih, Menteng
-            <br> Jakarta Pusat 10340
-            <br> Indonesia</p>
-        </section>
-      </div>
-      <div class="copyright bg-dark">
-        <p>Copyright © Kolla Living. All rights reserved.</p>
-      </div>
-    </section>
-  </div>
-  <!--[if lte IE 8]><![endif]-->
-  <script>
-    (function($) {
-      skel.breakpoints({
-          xlarge: '(max-width: 1680px)',
-          large: '(max-width: 1280px)',
-          medium: '(max-width: 980px)',
-          small: '(max-width: 736px)',
-          xsmall: '(max-width: 480px)'
-      });
-      $.fn._parallax = (skel.vars.browser == 'ie' || skel.vars.mobile) ? function() {
-          return $(this)
-      } : function(intensity) {
-          var $window = $(window),
-              $this = $(this);
-          if (this.length == 0 || intensity === 0) return $this;
-          if (this.length > 1) {
-              for (var i = 0; i < this.length; i++) $(this[i])._parallax(intensity);
-              return $this;
-          }
-          if (!intensity) intensity = 0.25;
-          $this.each(function() {
-              var $t = $(this),
-                  on, off;
-              on = function() {
-                  $t.css('background-position', 'center 100%, center 100%, center 0px');
-                  $window.on('scroll._parallax', function() {
-                      var pos = parseInt($window.scrollTop()) - parseInt($t.position().top);
-                      $t.css('background-position', 'center ' + (pos * (-1 * intensity)) + 'px');
-                  });
-              };
-              off = function() {
-                  $t.css('background-position', '');
-                  $window.off('scroll._parallax');
-              };
-              skel.on('change', function() {
-                  if (skel.breakpoint('medium').active)(off)();
-                  else(on)();
-              });
-          });
-          $window.off('load._parallax resize._parallax').on('load._parallax resize._parallax', function() {
-              $window.trigger('scroll');
-          });
-          return $(this);
-      };
-      $(function() {
-          var $window = $(window),
-              $body = $('body');
-          $body.addClass('is-loading');
-          $window.on('load', function() {
-              window.setTimeout(function() {
-                  $body.removeClass('is-loading');
-              }, 100);
-          });
-          $('form').placeholder();
-          skel.on('+medium -medium', function() {
-              $.prioritize('.important\\28 medium\\29', skel.breakpoint('medium').active);
-          });
-          $body._parallax(-0.7);
-          var $menu = $('#menu');
-          $menu._locked = false;
-          $menu._lock = function() {
-              if ($menu._locked) return false;
-              $menu._locked = true;
-              window.setTimeout(function() {
-                  $menu._locked = false;
-              }, 350);
-              return true;
-          };
-          $menu._show = function() {
-              if ($menu._lock()) $body.addClass('is-menu-visible');
-          };
-          $menu._hide = function() {
-              if ($menu._lock()) $body.removeClass('is-menu-visible');
-          };
-          $menu._toggle = function() {
-              if ($menu._lock()) $body.toggleClass('is-menu-visible');
-          };
-          $menu.appendTo($body).on('click', function(event) {
-              event.stopPropagation();
-              $menu._hide();
-          }).find('.inner').on('click', function(event) {
-              event.stopPropagation();
-          }).on('click', 'a', function(event) {
-              var href = $(this).attr('href');
-              event.preventDefault();
-              event.stopPropagation();
-              $menu._hide();
-              window.setTimeout(function() {
-                  window.location.href = href;
-              }, 350);
-          });
-          $body.on('click', 'a[href="#menu"]', function(event) {
-              event.stopPropagation();
-              event.preventDefault();
-              $menu._toggle();
-          }).on('keydown', function(event) {
-              if (event.keyCode == 27) $menu._hide();
-          });
-      });
-  })(jQuery);
-  </script>
-  <script>(function ($) {
-      $(function () {
-        if (skel.vars.os == 'ios' && window.self !== window.top) {
-          var $menu = $('#menu'), $window = $(window.top);
-          $window.on('resize orientationchange', function () {
-            $menu
-              .css('height', $window.height());
-          }).trigger('resize');
-        }
-      });
-    })(jQuery);
-  </script>
-  <script type="text/javascript">(function () { window.SIG_EXT = {}; })()</script>
-  <nav id="menu">
-    <div class="inner">
-      <h2>More Menu</h2>
-      <ul class="links">
-        <li>
-          <a href="./">Home</a>
-        </li>
-        <li>
-          <a href="about.html">About</a>
-        </li>
-        <li>
-            <a href="pricing.html">Pricing</a>
-          </li>
-        <li>
-          <a href="events.html">Events</a>
-        </li>
-        <li>
-          <a href="news.html">News</a>
-        </li>
-        <li>
-          <a href="careers.html">Careers</a>
-        </li>
-        <li>
-          <a href="contact.html">Contact</a>
-        </li>
-      </ul>
     </div>
-  </nav>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/skel.min.js"></script>
+    <script src="js/util.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/respond.min.js"></script>
+    <script src="https://wchat.freshchat.com/js/widget.js"></script>
+    <script>
+        window.fcWidget.init({
+            token: "d2092e78-2197-4e5b-bbb5-f070857f9545",
+            host: "https://wchat.freshchat.com"
+        });
+    </script>
 </body>
+
 </html>
