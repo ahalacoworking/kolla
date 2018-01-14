@@ -3022,6 +3022,83 @@ body {
   }
 /* End cardNews */
 
+/* Start Posts */
+ul.posts {
+    list-style: none;
+    padding: 0;
+}
+
+    ul.posts li {
+        border-top: dotted 1px rgba(160, 160, 160, 0.3);
+        margin: 1.5em 0 0 0;
+        padding: 1.5em 0 0 0;
+    }
+
+        ul.posts li:first-child {
+            border-top: 0;
+            margin-top: 0;
+            padding-top: 0;
+        }
+
+    ul.posts article {
+        display: -moz-flex;
+        display: -webkit-flex;
+        display: -ms-flex;
+        display: flex;
+        -moz-align-items: -moz-flex-start;
+        -webkit-align-items: -webkit-flex-start;
+        -ms-align-items: -ms-flex-start;
+        align-items: flex-start;
+        -moz-flex-direction: row-reverse;
+        -webkit-flex-direction: row-reverse;
+        -ms-flex-direction: row-reverse;
+        flex-direction: row-reverse;
+    }
+
+        ul.posts article .image {
+            display: block;
+            margin-right: 1.5em;
+            min-width: 4em;
+            width: 4em;
+        }
+
+            ul.posts article .image img {
+                width: 100%;
+            }
+
+        ul.posts article header {
+            -moz-flex-grow: 1;
+            -webkit-flex-grow: 1;
+            -ms-flex-grow: 1;
+            flex-grow: 1;
+            -ms-flex: 1;
+        }
+
+            ul.posts article header h3 {
+                font-size: 0.85em;
+            }
+
+            ul.posts article header .published {
+                display: block;
+                font-size: 0.65em;
+                font-weight: 400;
+                letter-spacing: 0.25em;
+                margin: -0.625em 0 1.7em 0;
+                text-transform: uppercase;
+            }
+
+            ul.posts article header > :last-child {
+                margin-bottom: 0;
+            }
+
+            ul.posts article header p {
+                font-size: 0.9em;
+                color: #fff;
+                font-weight: normal;
+                text-transform: none;
+            }
+/* End Posts */
+
 @media screen and (max-width: 1280px) {
     #menu .inner {
         padding: 2.5em 2em 0.5em 2em ;
@@ -3322,11 +3399,14 @@ body.is-loading #banner footer {
     border-color: rgba(36, 42, 48, 0.4);
     border-left-width: 1px;
     border-top-width: 1px;
-}
-#main .features .content .feature.feature-space {
-    width: 25%;
     display: flex;
     flex-direction: column;
+}
+#main .features .content .feature.feature-space {
+    width: 33.333333333%;
+}
+#main .features .content .feature.feature-news {
+    width: 50%;
 }
 #main .features .content .feature:nth-child(-n + 3) {
     border-top-width: 0;
