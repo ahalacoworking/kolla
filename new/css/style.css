@@ -3055,11 +3055,25 @@ ul.posts {
         flex-direction: row-reverse;
     }
 
+    ul.posts article.latest {
+        -moz-flex-direction: row-reverse;
+        -webkit-flex-direction: row-reverse;
+        -ms-flex-direction: row-reverse;
+        flex-direction: row-reverse;
+    }
+
         ul.posts article .image {
             display: block;
             margin-right: 1.5em;
             min-width: 4em;
             width: 4em;
+        }
+
+        ul.posts article.latest .image {
+            display: block;
+            margin-right: 1.5em;
+            min-width: 4em;
+            width: 200%;
         }
 
             ul.posts article .image img {
@@ -3075,12 +3089,13 @@ ul.posts {
         }
 
             ul.posts article header h3 {
-                font-size: 0.85em;
+                font-size: 0.9em;
+                letter-spacing: 0.1em;
             }
 
             ul.posts article header .published {
                 display: block;
-                font-size: 0.65em;
+                font-size: 0.75em;
                 font-weight: 400;
                 letter-spacing: 0.25em;
                 margin: -0.625em 0 1.7em 0;
@@ -3092,10 +3107,11 @@ ul.posts {
             }
 
             ul.posts article header p {
-                font-size: 0.9em;
+                font-size: 1em;
                 color: #fff;
                 font-weight: normal;
                 text-transform: none;
+                letter-spacing: 0em;
             }
 /* End Posts */
 
