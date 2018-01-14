@@ -3294,7 +3294,6 @@ body.is-menu-visible #menu .inner {
 }
 #banner .intro p {
     font-size: 1.1em;
-    letter-spacing: 1em;
 }
 #banner footer {
     -moz-filter: blur(0);
@@ -3345,7 +3344,7 @@ body.is-loading #banner footer {
         height: 30em;
     }
     #banner header h2 {
-        font-size: 4em;
+        font-size: 2.5em;
         margin-bottom: 0.5em;
     }
     #banner footer {
