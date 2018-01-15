@@ -1919,6 +1919,7 @@ input[type="submit"].disabled, input[type="submit"]:disabled,input[type="reset"]
 }
 form {
     margin: 0 0 2em 0;
+    width: 100%;
 }
 label {
     color: #ffffff;
@@ -3081,9 +3082,14 @@ ul.posts {
             width: 200%;
         }
 
+        .news ul.posts article.latest .image {
+            width: 25%;
+        }
+
             ul.posts article .image img {
                 width: 100%;
             }
+            
 
         ul.posts article header {
             -moz-flex-grow: 1;
@@ -3401,7 +3407,7 @@ body.is-loading #banner footer {
     margin-bottom: 6em;
 }
 #main .default {
-    background-color: #32383f;
+    /* background-color: #32383f; */
 }
 #main .default .content {
     padding: 4em 4em 2em 4em ;
@@ -3412,7 +3418,7 @@ body.is-loading #banner footer {
 #main .features h2:after, #main .major h2:after {
     background-color: #32383f;
 }
-#main .features .content {
+#main .features .content, #main .default .content {
     display: -moz-flex;
     display: -webkit-flex;
     display: -ms-flex;
