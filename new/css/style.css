@@ -234,6 +234,9 @@ body {
 .text-dark {
     color: #32383f;
 }
+.text-center {
+    text-align: center;
+}
 .bg-kolla {
     background-color: #FFFD56;
 }
