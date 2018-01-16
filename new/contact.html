@@ -46,13 +46,13 @@
                         <br> increase productivity, innovation, and collaboration.</p>
                 </header>
                 <div class="content default">
-                    <form method="post" action="#">
+                    <form method="POST" action="http://formspree.io/contact@kollaspace.com">
                         <div class="row uniform">
                             <div class="12u$">
-                                <input type="text" name="demo-name" id="demo-name" value="" placeholder="Name">
+                                <input type="text" name="name" id="name" value="" placeholder="Full Name">
                             </div>
                             <div class="12u$">
-                                <input type="email" name="demo-email" id="demo-email" value="" placeholder="Email">
+                                <input type="email" name="email" id="email" value="" placeholder="Email">
                             </div>
                             <!-- <div class="12u$">
                                 <div class="select-wrapper">
@@ -66,11 +66,14 @@
                                 </div>
                             </div> -->
                             <div class="12u$">
-                                <textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+                                <textarea name="message" id="message" placeholder="Message" rows="6"></textarea>
                             </div>
                             <div class="12u$">
                                 <ul class="actions">
                                     <li>
+                                        <input type="hidden" name="_subject" value="New submission from website!" />
+                                        <input type="hidden" name="_next" value="//kolla.id/thanks.html" />
+                                        <input type="text" name="_gotcha" style="display:none" />
                                         <input type="submit" value="Send Message" class="special">
                                     </li>
                                     <li>
