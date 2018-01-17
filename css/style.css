@@ -3141,6 +3141,9 @@ ul.posts {
 #main .features.products {
     background-color: transparent;
 }
+#main .features.single {
+    background-color: transparent;
+}
 #main .features.products .content {
     justify-content: space-between;
     background-color: transparent;
@@ -3148,6 +3151,15 @@ ul.posts {
 #main .features.products .content .feature {
     width: 26em;
     background: rgba(36, 42, 48, 0.9);
+}
+#main .features.products .content .feature.single-left {
+    width: 66.5%;
+}
+#main .features.products .content .feature.schedule h4, #main .features.products .content .feature.schedule p {
+    margin-bottom: 0;
+}
+#main .features.products .content .feature.schedule li {
+    padding: 1em 0;
 }
 /* End Products */
 
