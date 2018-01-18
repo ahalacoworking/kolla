@@ -297,6 +297,17 @@ body {
 .br-bottom {
     border-radius: 0 0 10px 10px;
 }
+@media screen and (max-width: 1024px) {
+    .br-bottom-left {
+        border-radius: 0;
+    }
+    .br-bottom-right {
+        border-radius: 0;
+    }
+    .br-bottom {
+        border-radius: 0;
+    }
+}
 /* End Border Radius */
 
 a.btn {
@@ -1669,9 +1680,9 @@ body.is-loading *, body.is-loading *:before, body.is-loading *:after {
     -ms-transition: none !important;
     transition: none !important;
 }
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1024px) {
     body {
-        background-size: 100px 100px, 200% auto;
+        background-size: 100px 100px, 130% auto;
     }
 }
 @media screen and (max-width: 736px) {
@@ -2203,8 +2214,18 @@ ul.actions li {
     padding: 0 1.5em 0 0;
     vertical-align: middle;
 }
-ul.actions li:last-child {
+@media screen and (max-width: 1024px) {
+    ul.actions li a {
+        display: inline-block;
+    }
+}
+/* ul.actions li:last-child {
     padding-right: 0 !important;
+} */
+@media screen and (max-width: 1024px) {
+    ul.actions li:last-child {
+        padding-right: 1.5em;
+    }
 }
 ul.actions.small li {
     padding: 0 1em 0 0;
@@ -2321,6 +2342,11 @@ header.major, .bg-gradient-rainbow {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ec8d81', endColorstr='#6093c4',GradientType=1 );
     background-position: center, center, center;
 }
+@media screen and (max-width: 1024px) {
+    header.major {
+        padding: 2em 6em 1em;
+    }
+}
 header.major h2:after {
     margin-left: auto;
     margin-right: auto;
@@ -2334,7 +2360,7 @@ header.major p {
         line-height: 2;
     }
 }
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1024px) {
     header p br {
         display: none;
     }
@@ -2451,6 +2477,11 @@ body {
     position: absolute;
     top: 0;
     right: 0.5em;
+}
+@media screen and (max-width: 1024px) {
+    #header nav {
+        right: 5.5em;
+    }
 }
 #header nav a {
     text-decoration: none;
@@ -3155,6 +3186,14 @@ ul.posts {
 #main .features.products .content .feature.single-left {
     width: 66.5%;
 }
+@media screen and (max-width: 1024px) {
+    #main .features.products .content .feature {
+        width: 100%;
+    }
+    #main .features.products .content .feature.single-left {
+        width: 100%;
+    }
+}
 #main .features.products .content .feature.schedule h4, #main .features.products .content .feature.schedule p {
     margin-bottom: 0;
 }
@@ -3317,6 +3356,11 @@ body.is-menu-visible #menu .inner {
     opacity: 1;
     z-index: 1;
 }
+@media screen and (max-width: 1024px) {
+    #banner .intro {
+        padding: 2em 2em 1em;
+    }
+}
 #banner .intro h2:after {
     width: 100%;
     top: 0.25em;
@@ -3380,7 +3424,7 @@ body.is-loading #banner footer {
         padding: 1.5em 2em;
     }
 }
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1024px) {
     #banner header {
         height: 34em;
     }
@@ -3465,6 +3509,11 @@ body.is-loading #banner footer {
 }
 #main .features .content .feature.feature-news {
     width: 50%;
+}
+@media screen and (max-width: 1024px) {
+    #main .features .content .feature.feature-news {
+        width: 100%;
+    }
 }
 #main .features .content .feature:nth-child(-n + 3) {
     border-top-width: 0;
@@ -3561,7 +3610,7 @@ body.is-loading #banner footer {
         padding: 1em 0 0.1em 0 ;
     }
 }
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1024px) {
     #main .features .content {
         display: block;
     }
@@ -3669,7 +3718,7 @@ body.is-loading #banner footer {
         padding: 3em 0 1em 0 ;
     }
 }
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1024px) {
     #footer .inner {
         -moz-flex-wrap: wrap;
         -webkit-flex-wrap: wrap;
