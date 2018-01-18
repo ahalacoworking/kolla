@@ -2371,6 +2371,7 @@ header.major p {
         line-height: 1.75;
     }
     header.major {
+        margin-top: 2em;
         padding: 4em 1.5em 2em 1.5em ;
         background-size: 100px 100px, 250%, cover;
     }
@@ -2527,7 +2528,7 @@ body {
     }
     body #header h1 {
         left: 1em;
-        font-size: 0.8em;
+        font-size: 1em;
     }
     body #header h1 span {
         display: none;
