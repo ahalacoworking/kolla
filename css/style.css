@@ -2694,7 +2694,7 @@ body {
     font-size: 0.9em !important;
 }
 #menu .inner ul.links .hide {
-    /* display: none; */
+    display: none;
 }
 @media screen and (max-width: 1024px) {
     #menu .inner ul.links .hide {
