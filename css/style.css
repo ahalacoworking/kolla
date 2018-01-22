@@ -3221,14 +3221,6 @@ ul.posts {
 #main .features.products .content .feature.single-left {
     width: 66.5%;
 }
-@media screen and (max-width: 1024px) {
-    #main .features.products .content .feature {
-        width: 100%;
-    }
-    #main .features.products .content .feature.single-left {
-        width: 100%;
-    }
-}
 #main .features.products .content .feature.schedule h4, #main .features.products .content .feature.schedule p {
     margin-bottom: 0;
 }
