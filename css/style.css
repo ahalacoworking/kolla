@@ -2512,7 +2512,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
-    background-image: url(../img/logo-kolla-min.png);
+    background-image: url(../img/kolla-coworking-space-jakarta-logo.png);
 }
 #header h1 a {
     display: block;
@@ -3333,7 +3333,7 @@ body.is-menu-visible #menu .inner {
 }
 #banner {
     position: relative;
-    background-image: url("../img/banner.jpg");
+    background-image: url("../img/kolla-coworking-space-jakarta.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
