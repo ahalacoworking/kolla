@@ -2582,7 +2582,7 @@ body {
         display: none;
     }
     body #header nav {
-        right: 2rem;
+        right: 2em;
     }
     body #header nav a[href="#menu"] {
         width: 6em;
