@@ -2525,7 +2525,7 @@ body {
 #header nav {
     position: absolute;
     top: 0;
-    right: 0.5em;
+    right: 2.5em;
 }
 @media screen and (max-width: 1024px) {
     #header nav {
@@ -2582,7 +2582,7 @@ body {
         display: none;
     }
     body #header nav {
-        right: 0;
+        right: 2rem;
     }
     body #header nav a[href="#menu"] {
         width: 6em;
