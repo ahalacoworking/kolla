@@ -1,0 +1,5 @@
+# robots.txt for http://www.kolla.id/
+
+User-agent: *
+Disallow: /old/ # these will soon disappear
+Disallow: /thanks.html
