@@ -3299,7 +3299,7 @@ ul.posts {
         display: flex;
     }
     #main .features.products .content .feature {
-        width: 40%;
+        width: 32%;
     }
     #main .features.products .content .feature.single-left {
         width: 58%;
@@ -3861,6 +3861,7 @@ body.is-loading #banner footer {
 @media screen and (max-width: 736px) {
     #footer {
         background-color: #2d3339;
+        margin-top: 2em;
     }
     #footer .inner {
         padding: 3em 1.5em 1em 1.5em ;
